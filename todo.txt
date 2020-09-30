@@ -1,0 +1,7 @@
+[x] Add date column to the categorization step
+[ ] Store last "end date" in local storage and use as default start date in future
+[x] Update budget categories
+[x] Add "Manual Review" category
+[ ] Fix glitchy UI when scrolling on CategorizeStep
+[ ] Fix janky styling in import step
+[ ] Don't switch from import to categorize until the redux store is up to date with lines

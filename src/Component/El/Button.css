@@ -1,0 +1,33 @@
+.Button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.2s;
+    @apply px-2 py-1 border-solid border border-gray-500 rounded-sm;
+}
+
+.Button:disabled {
+    cursor: auto;
+    @apply opacity-25;
+}
+
+.Button:not([disabled]):hover {
+    @apply border-gray-600;
+}
+
+.Button_normal {
+    @apply bg-gray-100;
+}
+
+.Button_normal:not([disabled]):hover {
+    @apply bg-gray-300 border-gray-700;
+}
+
+.Button_success {
+    @apply text-white bg-green-600 border-green-800;
+}
+
+.Button_success:not([disabled]):hover {
+    @apply bg-green-700 border-green-900;
+}

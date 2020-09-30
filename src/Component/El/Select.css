@@ -1,0 +1,3 @@
+.Select {
+    @apply w-full px-2 py-1 border-solid border border-gray-500 rounded-sm;
+}

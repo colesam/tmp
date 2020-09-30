@@ -1,0 +1,7 @@
+.App {
+    min-height: 100vh;
+    @apply py-20 flex flex-col justify-start items-center w-screen;
+}
+
+.App_container {
+}
